@@ -2,10 +2,230 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>Halo dunia</h1>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="images/mirza.jpeg" alt="logo">
+                <h2><span style="color: #72a1dea2;">Hi</span>Code</h2>
+            </div>
+
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <p><i class='bx bxl-instagram'></i></p>
+                <p><i class='bx bxl-github'></i></p>
+                <p><i class='bx bxl-linkedin-square'></i></p>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>            
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bxl-instagram'></i></a>
+                <a><i class='bx bxl-github'></i></a>
+                <a><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero ">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    <i class='bx bxl-sketch'></i>
+                    Professional Science Journalist Portfolio
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Built<span class="gradient"> the World</span> with <span class="gradient">Words</span></h1>
+
+                <p>I create engaging content that bridges the gap between complex scientific concepts and the general public. With a passion for making science accessible, I craft stories that inform and inspire. Check out my work below!</p>
+
+                <button><i class='bx bx-send' ></i> Contact Me</button>
+            </div>
+            
+            <div class="skills-video-box " >
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
+            </div>
+        
+            <div class="scroll-down"></div>
+        </section>
+
+        <seaction class="info-section">
+            <h1 class="section-title autoDisplay">Hello,There👋</h1>
+            <div class="info-cards">
+                <div class="card ">
+                    <h1>Hi there</h1>
+                    <p>During my 3 years of high school, I honed my writing and analytical skills within the field of science.</p>
+                
+                    <img src="images/grid1.jpeg" alt="card-image">
+                </div>
+
+                <div class="card">
+                    <h1>Tech Stack</h1>
+                    <p>I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications.</p>
+                
+                    <img src="images/grid2.jpeg" alt="card-image">
+                </div>
+
+                <div class="card">
+                    <h1>I’m very flexible with time zone communications & locations</h1>
+                    <p>I Lived in Medan, Medan Tembung and open to remote work worldwide.</p>
+                
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+
+                    <button><i class='bx bx-send'></i> Contact Me</button>
+                </div>
+
+                <div class="card">
+                    <h1>My Passion for Art</h1>
+                    <p>For me, art is not just a hobby, but a lens to understand the world, voice my imagination, and capture the beauty in the small details around us. I Always eager to keep experimenting, learning new things, and bringing creative ideas to life</p>
+                
+                    <img src="images/grid4.jpeg" alt="">
+                </div>
+            </div>
+        </seaction>
+
+        <section class="my-project">
+            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="videos/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1> Tubes <span class="gradient">Pemrograman Web</span></h1>
+                    <p>Membuat project website fleksibel yang dapat membantu mencari properti terbaik seperti rumah, apartemen, dan kos terkait harga, fasilitas, dan harga yang dapat ditawar oleh pengguna, baik pihak developer atau konsumen </p>
+                    <button><i class='bx bx-link-external' ></i> Website</button>
+            </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/project2.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1> Rekayasa <span class="gradient">Teknologi</span> Berkelanjutan </h1>
+                    <p>Membuat solusi teknologi yang berkelanjutan untuk mengatasi tantangan lingkungan dan sosial yang menghasilkan output ketahanan pangan yang diperoleh dari inovasi teknologi ramah lingkungan</p>
+                    <button><i class='bx bx-link-external' ></i> Website</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/project3.mp4"></video>
+                </div>
+                
+                <div class="project-info fadein-left">
+                    <h1>Jurnal <span class="gradient">Ilmiah</span></h1>
+                    <p>Membuat jurnal ilmiah yang membahas berbagai topik terkini dalam bidang teknologi dan sains untuk memberikan impect yang signifikan dalam mengatasi permasalahan lingkungan dan sosial</p>
+                    <button><i class='bx bx-link-external' ></i> Website</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="skills-section">
+            <h1 class="section-title autoDisplay">
+                My Skills 💪
+            </h1>
+            <div class="skills-box autoDisplay">
+                <img class="skills-image" src="images/digital brain (2).png" alt="">
+                <div class="Designer">
+                    <h1 class="gradient">Art</h1>
+                    <p>Passionate about both visual art and writing. I enjoy translating abstract ideas into powerful visual forms and stringing words together to tell stories, blending creativity and aesthetics into everything I create.</p>    
+                </div>
+                
+                <div class="coder">
+                    <h1 class="gradient">Sains</h1>
+                    <p>Adept at translating rigorous scientific research and data into compelling, high impact journalistic narratives. Experienced in investigative writing, deep dive reporting, and transforming complex factual findings into clear, engaging, and well-structured stories for the public.</p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/1.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/3.webp" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/4.webp" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/5.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/6.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/8.png" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="images/9.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section ">
+            <h3 class="section-title autoDisplay">Let's talk😊</h3>
+
+            <div class="social-box autoBlur">
+                <a href="#"><i class='bx bxs-phone'></i> +62 812 6566 5992</a>
+                <a href="#"><i class='bx bxl-instagram' ></i> @hmd_mr.z </a>
+                <a href="#"><i class='bx bxl-linkedin-square' ></i> mhdmirzaalfaritsi.com</a>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
+
+            <div class="contact-box autoBlur">
+                <p>When you have a problem in mind, I'm here to help.</p>
+            
+                <p>Full Name</p>
+                <input placeholder="Your Full name" type="full name">
+
+                <p>Email Address</p>
+                <input placeholder="Your Email" type="Contact">
+
+                <p>Your Message</p>
+                <input  class="input-message" type="contact" placeholder="shaire your thoughts...">
+
+                <button>Send Message <i class='bx bx-mail-send'></i></button>
+            </div>
+        
+        </section> 
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
 </body>
 </html>
